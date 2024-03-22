@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins';font-size: 20px;
+}
+.navats ul{
+    margin-bottom: 0px;
+    text-align: right;
+    background-color: rgb(156, 16, 16);
+}
+.navats li{
+    display: inline;
+    padding: 5px;
+}
+.navats a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+
+/* START NAVBAR */
+
+.navbwh {
+    margin-top: 0px;
+    padding: 10px;
+    padding-left: 100px;
+    text-align: center;
+    background-color: rgb(156, 16, 16);
+    display: flex;
+    
+}
+
+
+.logo{
+    display: inline;
+    padding-right: 10px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.btn{
+    background-color: brown;
+    color: white;
+    border: none;
+}
+.dropbtn{
+    background-color: brown;
+    color: white;
+    border: none;
+    margin-left: 1px;
+    cursor: pointer;
+}
+.drop {
+    display: none;
+    position: absolute;
+    top: 110px;
+    background-color: #f1f1f1;
+    min-width: 500px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.drop a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+.dropdown{
+    padding-left: 0px;
+    margin-right: 100px;
+}
+.drop a:hover {background-color: #ddd;}
+
+.kelas:hover .drop {
+    display: block;
+}
+
+.kelas:hover .dropbtn {
+    border: 2px;
+    border-radius: 9px;
+    border-style: solid;
+}
+.head{
+    display: flex;
+}
+.box{
+    padding: 200px;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border:5px solid brown;
+
+}
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+  
+  /* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+  /* Responsive columns */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+}
+  
+  /* Style the counter cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+.container2{
+    margin-top: 100px;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.judul{
+    font-weight: bold;
+}
+td{
+    padding-right: 200px;
+}
+table a{
+    font-size: 20px;
+}
+table p{
+    font-size: 15px;
+}
+.container3 tr td .ttt{
+    background-color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-weight: bold;
+}
+.footer{
+    display: flex;
+    background-color: rgb(199, 203, 206);
+    font-size: 15px;
+}
+.footer p{
+    margin-right: auto;
+}
+.footer li{
+    display: inline;
+    float: right;
+    padding-left: 50px;
+
+}
